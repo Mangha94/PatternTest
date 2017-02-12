@@ -2,7 +2,7 @@
  * Created by ttinfo on 2017-02-12.
  */
 public class Dron extends Zerg {
-    public void Dron(){
+    public Dron(){
         attackType=new NearFieldAttack();
         moveType=new OnFoot();
     }
